@@ -5,6 +5,6 @@
 // Please note that, single word should not be reversed!
 
 const words = "Javascript is the best programming language"
-words.split(" ").reverse();
+words.split(" ").reverse().join();
 
 console.log(words);
